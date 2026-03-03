@@ -21,7 +21,7 @@ export default function HomeScreen() {
   const { width, height } = useWindowDimensions();
   const isLandscape = width > height;
 
-  const API_URL = "http://10.33.230.15:8000/solve";
+  const API_URL = "http://192.168.0.158:8000/solve";
 
   if (!permission) return <View />;
   if (!permission.granted) {
